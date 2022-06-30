@@ -1,0 +1,50 @@
+.back{
+  align-self: flex-start;
+}
+input[type=text]{
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #E8EDEA;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+}
+input[type=text]:focus{
+  outline: none;
+  border: 4px solid #9A77BB;
+}
+input[type=submit]{
+  text-align: center;
+  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  height: 60px;
+  width: 240px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: #E8EDEA;
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  background-color: #91AEF2;
+  margin-left: 10px;
+}
+input[type=submit]:hover{
+  border: 4px solid #9A77BB;
+  border-radius: 8px;
+  background-color: #9A77BB;
+  margin-left: 10px;
+}
+input[name=bankno]{
+  width: 872px;
+}
+h2{
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+.userpage{
+height: 1200px;
+}

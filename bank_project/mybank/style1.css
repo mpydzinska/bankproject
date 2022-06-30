@@ -1,0 +1,266 @@
+body{
+  margin: 0px;
+}
+td > a{
+  color: #2C2C26;
+  align-self: center;
+}
+.header{
+  background-color: #2C2C26;
+  height: 150px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header >a, a > img, .header > img{
+  height: 150px;
+  width: 150px;
+}
+a, a:active{
+  text-decoration: none;
+}
+.adminpanel{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 400px;
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  background-color: #91AEF2;
+  margin-right: 20px;
+}
+.adminpanel:hover{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 400px;
+  border: 4px solid #9A77BB;
+  border-radius: 8px;
+  background-color: #9A77BB;
+  margin-right: 20px;
+}
+.powrot{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  background-color: #91AEF2;
+  margin-right: 20px;
+}
+.powrot:hover{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  border: 4px solid #9A77BB;
+  border-radius: 8px;
+  background-color: #9A77BB;
+  margin-right: 20px;
+}
+.relog > a, .relog > a:active{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: #E8EDEA;
+  text-decoration: none;
+}
+.adminpanel > a, .adminpanel > a:active, .powrot > a, .powrot > .a:active{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: #E8EDEA;
+  text-decoration: none;
+}
+.container{
+  background-color: #E8EDEA;
+  display: flex;
+  flex-wrap: wrap;
+}
+.loginpage, .registerpage, .adminpage, .logoutpage{
+  width: 100%;
+  height: 800px;
+  display: flex;
+}
+.registerpage, .adminpage, .logoutpage{
+  justify-content: center;
+}
+.logowanie, .rejestracja{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: flex;
+  justify-content: flex-end;
+}
+h1{
+  color: #2C2C26;
+  font-size: 40px;
+  font-weight: lighter;
+  font-family: Helvetica, sans-serif;
+}
+h2{
+  color: #2C2C26;
+  font-size: 30px;
+  font-weight: 50;
+  font-family: Helvetica, sans-serif;
+}
+h3{
+  color: #2C2C26;
+  font-size: 20px;
+  font-weight: 50;
+  font-family: Helvetica, sans-serif;
+}
+input[type=text], input[type=password]{
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  width: 400px;
+  padding: 20px;
+  margin: 10px;
+  background-color: #E8EDEA;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+}
+input[type=password]{
+  margin-left: 10px;
+}
+input[type=text]:focus, input[type=password]:focus{
+  outline: none;
+  border: 4px solid #9A77BB;
+}
+input[type=submit]{
+  text-align: center;
+  padding: 5px;
+  height: 60px;
+  width: 180px;
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: #E8EDEA;
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  background-color: #91AEF2;
+}
+input[type=submit]:hover{
+  border: 4px solid #9A77BB;
+  border-radius: 8px;
+  background-color: #9A77BB;
+}
+.center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.divider{
+  border: none;
+  border-right: 1px solid #2C2C26;
+  width: 1%;
+  height: 300px;
+}
+.info{
+  width: 39%;
+  display: flex;
+  align-items: center;
+  justify-content: center;flex-direction: column;
+}
+.register, .register:active, .relog, .relog:active{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  border: 4px solid #91AEF2;
+  border-radius: 8px;
+  background-color: #91AEF2;
+}
+.register:hover, .relog:hover{
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  height: 60px;
+  width: 200px;
+  border: 4px solid #9A77BB;
+  border-radius: 8px;
+  background-color: #9A77BB;
+}
+.register > a{
+  font-size: 25px;
+  font-weight: bolder;
+  font-family: Helvetica, sans-serif;
+  color: #E8EDEA;
+  text-decoration: none;
+}
+.footer{
+  background-color: #2C2C26;
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  bottom: 0;
+}
+.footer > h3{
+  color: #E8EDEA;
+  font-size: 15px;
+  font-weight: lighter;
+  font-family: Helvetica, sans-serif;
+}
+.registerpage{
+  width: 100%;
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+.rejestracja{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.btn{
+  display: flex;
+  justify-content: flex-end;
+}
+span{
+  color: #2C2C26;
+  font-size: 20px;
+  font-weight: 100;
+  font-family: Helvetica, sans-serif;
+  margin: 10px;
+}
+span:first-of-type{
+  font-size: 24px;
+  font-weight: 50;
+}
+input[name=day], input[name=month], input[name=year]{
+width: 240px;
+}
+.date{
+  display: flex;
+
+  align-items: center;
+}
